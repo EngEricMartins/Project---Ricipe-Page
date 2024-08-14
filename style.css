@@ -1,0 +1,83 @@
+/* tag universal */
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+/* geral style boxpage */
+:root {
+  font-family: "Alice", serif;
+  line-height: 150%;
+  color: #573A37;
+}
+/* backgroud image out the page  */
+body {
+  background-image: url(./assets/image/bg-image.png);
+  background-size: cover;
+}
+
+/* image inside in boxpage  */
+#mainimage {
+border-radius: 16px;
+}
+main {
+  padding: 24px;
+}
+
+/* Style box page  */
+#page {
+  background-color: #F0E8C2;
+  padding:24px;
+  width: 800px;
+  max-width: 800px;
+  box-sizing: border-box;
+  margin: 48px auto 28px;
+  border-radius: 24px;
+}
+
+/* color hipertext 1 and 2  */
+h1, h2 {
+  color:#291B1A;
+  font-weight:bold;
+  font-size: 40px;
+}
+/* margin the p's of section about */
+#about p + p {
+  margin-top: 12px;
+}
+
+/* transition margin with sections's */
+section +section {
+  margin-top: 24px;
+}
+
+/* padding left the list unorder list */
+ul {
+  padding-left: 30px;
+}
+
+
+/* hipertext 1 configuration */
+h1 {
+  line-height: 140%;
+  margin-bottom: 4px;
+}
+
+/* hipertext 2 configuration */
+h2 {
+  font-size: 24px;
+  margin-bottom: 4px;
+  line-height: 150%;
+}
+
+footer {
+  color: #F0E8C2;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+footer img {
+  vertical-align:middle;
+}
+
